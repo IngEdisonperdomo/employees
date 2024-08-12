@@ -13,7 +13,6 @@ const DefaultLayout = () => {
         <Col md={10} className="ps-0 pe-0 d-flex flex-column">
           <Header />
           <Content />
-          <Footer />
         </Col>
       </Row>
     </Container>

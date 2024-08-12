@@ -3,6 +3,10 @@
   border-bottom: 1px solid #4b545c;
 }
 
+.navbar-container {
+  min-height: 58px;
+}
+
 .navbar-brand {
   color: #ffffff !important;
   font-weight: bold;
