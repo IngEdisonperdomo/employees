@@ -1,0 +1,33 @@
+/* CreateEvaluation.css */
+.createEvaluation-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 15%;
+}
+
+.createEvaluation-container h1 {
+  text-align: center;
+  color: #343a40;
+}
+
+.createEvaluation-container .form-control {
+  border-radius: 4px;
+}
+
+.createEvaluation-container .text-danger {
+  font-size: 0.875rem;
+}
+
+.createEvaluation-container .btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.createEvaluation-container .btn:hover {
+  background-color: #0056b3;
+}
