@@ -1,5 +1,5 @@
 import React from "react";
-import { Content, Sidebar, Footer, Header } from "../components/index";
+import { Content, Sidebar, Footer, Header } from "@shared/components/index";
 import { Container, Row, Col } from "react-bootstrap";
 import "../App.css";
 

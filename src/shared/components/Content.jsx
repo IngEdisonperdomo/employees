@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
-import routes from "../routes";
+import routes from "@shared/routes/routes";
 
 const AppContent = () => {
   return (

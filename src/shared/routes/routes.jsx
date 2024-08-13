@@ -1,14 +1,16 @@
 import React from "react";
 
-const Dashboard = React.lazy(() => import("./views/Dashboard/Dashboard"));
-const Evaluation = React.lazy(() => import("./views/Evaluation/Evaluation"));
+const Dashboard = React.lazy(() => import("../../views/Dashboard/Dashboard"));
+const Evaluation = React.lazy(() =>
+  import("../../views/Evaluation/Evaluation")
+);
 const CreateEvaluation = React.lazy(() =>
-  import("./views/Evaluation/Create/CreateEvaluation")
+  import("../../views/Evaluation/Create/CreateEvaluation")
 );
 
-const Employees = React.lazy(() => import("./views/Employees/Employees"));
+const Employees = React.lazy(() => import("../../views/Employees/Employees"));
 const CreateEmployee = React.lazy(() =>
-  import("./views/Employees/Create/CreateEmployee")
+  import("../../views/Employees/Create/CreateEmployee")
 );
 
 const routes = [
