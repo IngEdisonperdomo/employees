@@ -23,7 +23,7 @@ import {
 import { AccountCircle, Send } from "@mui/icons-material";
 
 //Mock Data
-import { data } from "./data";
+import data from "@shared/data/table.json";
 
 const Example = () => {
   const columns: any = useMemo(

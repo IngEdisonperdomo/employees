@@ -12,11 +12,20 @@ import {
 import { FaUser, FaBell } from "react-icons/fa";
 import "./Header.css";
 
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
   const [showProfileModal, setShowProfileModal] = useState(false);
 
   const handleShowProfile = () => setShowProfileModal(true);
   const handleCloseProfile = () => setShowProfileModal(false);
+
+  const navigate = useNavigate();
+
+  const logout = () => {
+    // Perform logout operation here...
+    navigate("/login");
+  };
 
   return (
     <>
@@ -48,7 +57,7 @@ const Header = () => {
                 <NavDropdown.Item onClick={handleShowProfile}>
                   Profile
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
+                <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
